@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1A2A92BD5DF7D82B43E780 /* libPods-FeedDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34ACDE9EA72905C355EA72B9 /* libPods-FeedDemo.a */; };
 		ED0965EE21CDF93900BB5C83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0965ED21CDF93900BB5C83 /* AppDelegate.m */; };
 		ED0965F121CDF93900BB5C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0965F021CDF93900BB5C83 /* ViewController.m */; };
 		ED0965F421CDF93900BB5C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0965F221CDF93900BB5C83 /* Main.storyboard */; };
@@ -15,6 +16,27 @@
 		ED0965FC21CDF93A00BB5C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0965FB21CDF93A00BB5C83 /* main.m */; };
 		ED09660621CDF93A00BB5C83 /* FeedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09660521CDF93A00BB5C83 /* FeedDemoTests.m */; };
 		ED09661121CDF93A00BB5C83 /* FeedDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09661021CDF93A00BB5C83 /* FeedDemoUITests.m */; };
+		ED09663C21CDFB3B00BB5C83 /* MMFeedStyle2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662121CDFB3B00BB5C83 /* MMFeedStyle2Model.m */; };
+		ED09663D21CDFB3B00BB5C83 /* MMFeedStyle2Item.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662221CDFB3B00BB5C83 /* MMFeedStyle2Item.m */; };
+		ED09663E21CDFB3B00BB5C83 /* MMFeedStyle2View.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662321CDFB3B00BB5C83 /* MMFeedStyle2View.m */; };
+		ED09663F21CDFB3B00BB5C83 /* MMFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662721CDFB3B00BB5C83 /* MMFeedItem.m */; };
+		ED09664021CDFB3B00BB5C83 /* MMFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662821CDFB3B00BB5C83 /* MMFeedCell.m */; };
+		ED09664121CDFB3B00BB5C83 /* MMFeedGuideCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662E21CDFB3B00BB5C83 /* MMFeedGuideCardModel.m */; };
+		ED09664221CDFB3B00BB5C83 /* MMFeedGuideCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09662F21CDFB3B00BB5C83 /* MMFeedGuideCardItem.m */; };
+		ED09664321CDFB3B00BB5C83 /* MMFeedGuideCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09663021CDFB3B00BB5C83 /* MMFeedGuideCardView.m */; };
+		ED09664421CDFB3B00BB5C83 /* MMFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09663121CDFB3B00BB5C83 /* MMFeedModel.m */; };
+		ED09664521CDFB3B00BB5C83 /* MMStyle2FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09663821CDFB3B00BB5C83 /* MMStyle2FeedCell.m */; };
+		ED09664621CDFB3B00BB5C83 /* MMStyle2FeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09663921CDFB3B00BB5C83 /* MMStyle2FeedItem.m */; };
+		ED09664A21CDFBB900BB5C83 /* NetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09664921CDFBB900BB5C83 /* NetworkModel.m */; };
+		ED09664D21CDFCCF00BB5C83 /* NSDictionary+Uitilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09664B21CDFCCF00BB5C83 /* NSDictionary+Uitilities.m */; };
+		ED09665321CDFD1F00BB5C83 /* NSString+NTJson.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09665021CDFD1F00BB5C83 /* NSString+NTJson.m */; };
+		ED09665A21CE112000BB5C83 /* MMFeedListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09665921CE112000BB5C83 /* MMFeedListItem.m */; };
+		ED09665D21CE12E400BB5C83 /* MMCachedHeightTableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09665C21CE12E400BB5C83 /* MMCachedHeightTableItem.m */; };
+		ED09666021CE13F300BB5C83 /* MMCachedHeightTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09665F21CE13F300BB5C83 /* MMCachedHeightTableCell.m */; };
+		ED09666721CE50B500BB5C83 /* MMFeedComponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09666621CE50B500BB5C83 /* MMFeedComponentView.m */; };
+		ED09666A21CE50D000BB5C83 /* MMFeedComponentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09666921CE50D000BB5C83 /* MMFeedComponentItem.m */; };
+		ED09666D21CE50E800BB5C83 /* MMFeedComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09666C21CE50E800BB5C83 /* MMFeedComponentModel.m */; };
+		ED09667821CE534B00BB5C83 /* MMFeedStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED09667721CE534B00BB5C83 /* MMFeedStyleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34ACDE9EA72905C355EA72B9 /* libPods-FeedDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FeedDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67188FAD4D3596E1ADBE400A /* Pods-FeedDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedDemo/Pods-FeedDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D387601B0909409F8FCC6B95 /* Pods-FeedDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeedDemo/Pods-FeedDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ED0965E921CDF93900BB5C83 /* FeedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0965EC21CDF93900BB5C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED0965ED21CDF93900BB5C83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +76,48 @@
 		ED09660C21CDF93A00BB5C83 /* FeedDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED09661021CDF93A00BB5C83 /* FeedDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDemoUITests.m; sourceTree = "<group>"; };
 		ED09661221CDF93A00BB5C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED09662121CDFB3B00BB5C83 /* MMFeedStyle2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedStyle2Model.m; sourceTree = "<group>"; };
+		ED09662221CDFB3B00BB5C83 /* MMFeedStyle2Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedStyle2Item.m; sourceTree = "<group>"; };
+		ED09662321CDFB3B00BB5C83 /* MMFeedStyle2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedStyle2View.m; sourceTree = "<group>"; };
+		ED09662421CDFB3B00BB5C83 /* MMFeedStyle2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedStyle2Model.h; sourceTree = "<group>"; };
+		ED09662521CDFB3B00BB5C83 /* MMFeedStyle2Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedStyle2Item.h; sourceTree = "<group>"; };
+		ED09662621CDFB3B00BB5C83 /* MMFeedStyle2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedStyle2View.h; sourceTree = "<group>"; };
+		ED09662721CDFB3B00BB5C83 /* MMFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedItem.m; sourceTree = "<group>"; };
+		ED09662821CDFB3B00BB5C83 /* MMFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedCell.m; sourceTree = "<group>"; };
+		ED09662B21CDFB3B00BB5C83 /* MMFeedGuideCardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedGuideCardItem.h; sourceTree = "<group>"; };
+		ED09662C21CDFB3B00BB5C83 /* MMFeedGuideCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedGuideCardModel.h; sourceTree = "<group>"; };
+		ED09662D21CDFB3B00BB5C83 /* MMFeedGuideCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedGuideCardView.h; sourceTree = "<group>"; };
+		ED09662E21CDFB3B00BB5C83 /* MMFeedGuideCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedGuideCardModel.m; sourceTree = "<group>"; };
+		ED09662F21CDFB3B00BB5C83 /* MMFeedGuideCardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedGuideCardItem.m; sourceTree = "<group>"; };
+		ED09663021CDFB3B00BB5C83 /* MMFeedGuideCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedGuideCardView.m; sourceTree = "<group>"; };
+		ED09663121CDFB3B00BB5C83 /* MMFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFeedModel.m; sourceTree = "<group>"; };
+		ED09663421CDFB3B00BB5C83 /* MMFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedCell.h; sourceTree = "<group>"; };
+		ED09663621CDFB3B00BB5C83 /* MMStyle2FeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStyle2FeedItem.h; sourceTree = "<group>"; };
+		ED09663721CDFB3B00BB5C83 /* MMStyle2FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMStyle2FeedCell.h; sourceTree = "<group>"; };
+		ED09663821CDFB3B00BB5C83 /* MMStyle2FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStyle2FeedCell.m; sourceTree = "<group>"; };
+		ED09663921CDFB3B00BB5C83 /* MMStyle2FeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMStyle2FeedItem.m; sourceTree = "<group>"; };
+		ED09663A21CDFB3B00BB5C83 /* MMFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedItem.h; sourceTree = "<group>"; };
+		ED09663B21CDFB3B00BB5C83 /* MMFeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFeedModel.h; sourceTree = "<group>"; };
+		ED09664821CDFBB900BB5C83 /* NetworkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkModel.h; sourceTree = "<group>"; };
+		ED09664921CDFBB900BB5C83 /* NetworkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkModel.m; sourceTree = "<group>"; };
+		ED09664B21CDFCCF00BB5C83 /* NSDictionary+Uitilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Uitilities.m"; sourceTree = "<group>"; };
+		ED09664C21CDFCCF00BB5C83 /* NSDictionary+Uitilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Uitilities.h"; sourceTree = "<group>"; };
+		ED09665021CDFD1F00BB5C83 /* NSString+NTJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NTJson.m"; sourceTree = "<group>"; };
+		ED09665121CDFD1F00BB5C83 /* NSString+NTJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NTJson.h"; sourceTree = "<group>"; };
+		ED09665821CE112000BB5C83 /* MMFeedListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFeedListItem.h; sourceTree = "<group>"; };
+		ED09665921CE112000BB5C83 /* MMFeedListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFeedListItem.m; sourceTree = "<group>"; };
+		ED09665B21CE12E400BB5C83 /* MMCachedHeightTableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCachedHeightTableItem.h; sourceTree = "<group>"; };
+		ED09665C21CE12E400BB5C83 /* MMCachedHeightTableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCachedHeightTableItem.m; sourceTree = "<group>"; };
+		ED09665E21CE13F300BB5C83 /* MMCachedHeightTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCachedHeightTableCell.h; sourceTree = "<group>"; };
+		ED09665F21CE13F300BB5C83 /* MMCachedHeightTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCachedHeightTableCell.m; sourceTree = "<group>"; };
+		ED09666521CE50B500BB5C83 /* MMFeedComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFeedComponentView.h; sourceTree = "<group>"; };
+		ED09666621CE50B500BB5C83 /* MMFeedComponentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFeedComponentView.m; sourceTree = "<group>"; };
+		ED09666821CE50D000BB5C83 /* MMFeedComponentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFeedComponentItem.h; sourceTree = "<group>"; };
+		ED09666921CE50D000BB5C83 /* MMFeedComponentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFeedComponentItem.m; sourceTree = "<group>"; };
+		ED09666B21CE50E800BB5C83 /* MMFeedComponentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFeedComponentModel.h; sourceTree = "<group>"; };
+		ED09666C21CE50E800BB5C83 /* MMFeedComponentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFeedComponentModel.m; sourceTree = "<group>"; };
+		ED09667621CE534B00BB5C83 /* MMFeedStyleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMFeedStyleModel.h; sourceTree = "<group>"; };
+		ED09667721CE534B00BB5C83 /* MMFeedStyleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMFeedStyleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1A2A92BD5DF7D82B43E780 /* libPods-FeedDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +146,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91634C645F52AA12F0B792B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67188FAD4D3596E1ADBE400A /* Pods-FeedDemo.debug.xcconfig */,
+				D387601B0909409F8FCC6B95 /* Pods-FeedDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E51407B80369B5986994A1A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34ACDE9EA72905C355EA72B9 /* libPods-FeedDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED0965E021CDF93900BB5C83 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +170,8 @@
 				ED09660421CDF93A00BB5C83 /* FeedDemoTests */,
 				ED09660F21CDF93A00BB5C83 /* FeedDemoUITests */,
 				ED0965EA21CDF93900BB5C83 /* Products */,
+				91634C645F52AA12F0B792B0 /* Pods */,
+				E51407B80369B5986994A1A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +188,8 @@
 		ED0965EB21CDF93900BB5C83 /* FeedDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ED09664721CDFBA000BB5C83 /* Utils */,
+				ED09661F21CDFB3B00BB5C83 /* Style2Demo */,
 				ED0965EC21CDF93900BB5C83 /* AppDelegate.h */,
 				ED0965ED21CDF93900BB5C83 /* AppDelegate.m */,
 				ED0965EF21CDF93900BB5C83 /* ViewController.h */,
@@ -132,6 +221,126 @@
 			path = FeedDemoUITests;
 			sourceTree = "<group>";
 		};
+		ED09661F21CDFB3B00BB5C83 /* Style2Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ED09667921CE59B000BB5C83 /* Component */,
+				ED09663521CDFB3B00BB5C83 /* Cell */,
+				ED09665821CE112000BB5C83 /* MMFeedListItem.h */,
+				ED09665921CE112000BB5C83 /* MMFeedListItem.m */,
+			);
+			path = Style2Demo;
+			sourceTree = "<group>";
+		};
+		ED09662021CDFB3B00BB5C83 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				ED09662521CDFB3B00BB5C83 /* MMFeedStyle2Item.h */,
+				ED09662221CDFB3B00BB5C83 /* MMFeedStyle2Item.m */,
+				ED09662621CDFB3B00BB5C83 /* MMFeedStyle2View.h */,
+				ED09662321CDFB3B00BB5C83 /* MMFeedStyle2View.m */,
+				ED09662421CDFB3B00BB5C83 /* MMFeedStyle2Model.h */,
+				ED09662121CDFB3B00BB5C83 /* MMFeedStyle2Model.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		ED09662A21CDFB3B00BB5C83 /* GuideCard */ = {
+			isa = PBXGroup;
+			children = (
+				ED09662B21CDFB3B00BB5C83 /* MMFeedGuideCardItem.h */,
+				ED09662F21CDFB3B00BB5C83 /* MMFeedGuideCardItem.m */,
+				ED09662D21CDFB3B00BB5C83 /* MMFeedGuideCardView.h */,
+				ED09663021CDFB3B00BB5C83 /* MMFeedGuideCardView.m */,
+				ED09662C21CDFB3B00BB5C83 /* MMFeedGuideCardModel.h */,
+				ED09662E21CDFB3B00BB5C83 /* MMFeedGuideCardModel.m */,
+			);
+			path = GuideCard;
+			sourceTree = "<group>";
+		};
+		ED09663521CDFB3B00BB5C83 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ED09667C21CE5A4000BB5C83 /* Style2 */,
+				ED09667B21CE59FC00BB5C83 /* Base */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ED09664721CDFBA000BB5C83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED09665E21CE13F300BB5C83 /* MMCachedHeightTableCell.h */,
+				ED09665F21CE13F300BB5C83 /* MMCachedHeightTableCell.m */,
+				ED09665B21CE12E400BB5C83 /* MMCachedHeightTableItem.h */,
+				ED09665C21CE12E400BB5C83 /* MMCachedHeightTableItem.m */,
+				ED09665121CDFD1F00BB5C83 /* NSString+NTJson.h */,
+				ED09665021CDFD1F00BB5C83 /* NSString+NTJson.m */,
+				ED09664C21CDFCCF00BB5C83 /* NSDictionary+Uitilities.h */,
+				ED09664B21CDFCCF00BB5C83 /* NSDictionary+Uitilities.m */,
+				ED09664821CDFBB900BB5C83 /* NetworkModel.h */,
+				ED09664921CDFBB900BB5C83 /* NetworkModel.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ED09665721CE10C500BB5C83 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED09666521CE50B500BB5C83 /* MMFeedComponentView.h */,
+				ED09666621CE50B500BB5C83 /* MMFeedComponentView.m */,
+				ED09666821CE50D000BB5C83 /* MMFeedComponentItem.h */,
+				ED09666921CE50D000BB5C83 /* MMFeedComponentItem.m */,
+				ED09666B21CE50E800BB5C83 /* MMFeedComponentModel.h */,
+				ED09666C21CE50E800BB5C83 /* MMFeedComponentModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		ED09667921CE59B000BB5C83 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				ED09667A21CE59D300BB5C83 /* Style2 */,
+				ED09665721CE10C500BB5C83 /* Base */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		ED09667A21CE59D300BB5C83 /* Style2 */ = {
+			isa = PBXGroup;
+			children = (
+				ED09662021CDFB3B00BB5C83 /* Style */,
+				ED09662A21CDFB3B00BB5C83 /* GuideCard */,
+			);
+			path = Style2;
+			sourceTree = "<group>";
+		};
+		ED09667B21CE59FC00BB5C83 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED09667621CE534B00BB5C83 /* MMFeedStyleModel.h */,
+				ED09667721CE534B00BB5C83 /* MMFeedStyleModel.m */,
+				ED09663A21CDFB3B00BB5C83 /* MMFeedItem.h */,
+				ED09662721CDFB3B00BB5C83 /* MMFeedItem.m */,
+				ED09663421CDFB3B00BB5C83 /* MMFeedCell.h */,
+				ED09662821CDFB3B00BB5C83 /* MMFeedCell.m */,
+				ED09663B21CDFB3B00BB5C83 /* MMFeedModel.h */,
+				ED09663121CDFB3B00BB5C83 /* MMFeedModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		ED09667C21CE5A4000BB5C83 /* Style2 */ = {
+			isa = PBXGroup;
+			children = (
+				ED09663621CDFB3B00BB5C83 /* MMStyle2FeedItem.h */,
+				ED09663921CDFB3B00BB5C83 /* MMStyle2FeedItem.m */,
+				ED09663721CDFB3B00BB5C83 /* MMStyle2FeedCell.h */,
+				ED09663821CDFB3B00BB5C83 /* MMStyle2FeedCell.m */,
+			);
+			path = Style2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED09661521CDF93A00BB5C83 /* Build configuration list for PBXNativeTarget "FeedDemo" */;
 			buildPhases = (
+				B251DDA67D27B60F65F959FD /* [CP] Check Pods Manifest.lock */,
 				ED0965E521CDF93900BB5C83 /* Sources */,
 				ED0965E621CDF93900BB5C83 /* Frameworks */,
 				ED0965E721CDF93900BB5C83 /* Resources */,
+				651D6D4E3518D8335C79A6F7 /* [CP] Embed Pods Frameworks */,
+				B8BF7698199973F3B2B062DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +469,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		651D6D4E3518D8335C79A6F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeedDemo/Pods-FeedDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B251DDA67D27B60F65F959FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FeedDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BF7698199973F3B2B062DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FeedDemo/Pods-FeedDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RETableViewManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeedDemo/Pods-FeedDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED0965E521CDF93900BB5C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED09665A21CE112000BB5C83 /* MMFeedListItem.m in Sources */,
+				ED09663C21CDFB3B00BB5C83 /* MMFeedStyle2Model.m in Sources */,
+				ED09664621CDFB3B00BB5C83 /* MMStyle2FeedItem.m in Sources */,
+				ED09666D21CE50E800BB5C83 /* MMFeedComponentModel.m in Sources */,
+				ED09666021CE13F300BB5C83 /* MMCachedHeightTableCell.m in Sources */,
+				ED09664A21CDFBB900BB5C83 /* NetworkModel.m in Sources */,
+				ED09663D21CDFB3B00BB5C83 /* MMFeedStyle2Item.m in Sources */,
+				ED09664521CDFB3B00BB5C83 /* MMStyle2FeedCell.m in Sources */,
+				ED09665D21CE12E400BB5C83 /* MMCachedHeightTableItem.m in Sources */,
+				ED09665321CDFD1F00BB5C83 /* NSString+NTJson.m in Sources */,
+				ED09664121CDFB3B00BB5C83 /* MMFeedGuideCardModel.m in Sources */,
+				ED09667821CE534B00BB5C83 /* MMFeedStyleModel.m in Sources */,
+				ED09664221CDFB3B00BB5C83 /* MMFeedGuideCardItem.m in Sources */,
+				ED09663F21CDFB3B00BB5C83 /* MMFeedItem.m in Sources */,
+				ED09666A21CE50D000BB5C83 /* MMFeedComponentItem.m in Sources */,
 				ED0965F121CDF93900BB5C83 /* ViewController.m in Sources */,
+				ED09664321CDFB3B00BB5C83 /* MMFeedGuideCardView.m in Sources */,
+				ED09664421CDFB3B00BB5C83 /* MMFeedModel.m in Sources */,
+				ED09664D21CDFCCF00BB5C83 /* NSDictionary+Uitilities.m in Sources */,
+				ED09663E21CDFB3B00BB5C83 /* MMFeedStyle2View.m in Sources */,
+				ED09664021CDFB3B00BB5C83 /* MMFeedCell.m in Sources */,
+				ED09666721CE50B500BB5C83 /* MMFeedComponentView.m in Sources */,
 				ED0965FC21CDF93A00BB5C83 /* main.m in Sources */,
 				ED0965EE21CDF93900BB5C83 /* AppDelegate.m in Sources */,
 			);
@@ -433,6 +720,7 @@
 		};
 		ED09661621CDF93A00BB5C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67188FAD4D3596E1ADBE400A /* Pods-FeedDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +737,7 @@
 		};
 		ED09661721CDF93A00BB5C83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D387601B0909409F8FCC6B95 /* Pods-FeedDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
