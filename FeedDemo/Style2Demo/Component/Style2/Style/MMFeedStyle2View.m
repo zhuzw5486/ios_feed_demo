@@ -18,7 +18,6 @@
 @end
 
 @implementation MMFeedStyle2View
-@synthesize item = _item;
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -52,7 +51,7 @@
 }
 
 - (void)setItem:(MMFeedComponentItem *)item {
-    if (_item == item) {
+    if (self.item == item) {
         return;
     }
     
